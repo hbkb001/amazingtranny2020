@@ -134,7 +134,7 @@ public class App
         //28
         germanTranslations.add("achtundzwanzig");
         //29
-        germanTranslations.add("neunundzwanzig");
+        germanTranslations.add("neunundzwanzig1");
         //30
         germanTranslations.add("dreißig");
 
@@ -154,7 +154,7 @@ public class App
         String optionAsString=scanner.nextLine();
         Integer option=null;
         try {
-            option=Integer.parseInt(numberAsString);
+            option=Integer.parseInt(optionAsString);
             System.out.println(option);
         }
         catch (NumberFormatException nfe){
