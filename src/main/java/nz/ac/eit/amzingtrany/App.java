@@ -134,7 +134,9 @@ public class App {
         //29
         germanTranslations.add("neunundzwanzig1");
         //30
-        boolean dreißig = germanTranslations.add("dreißig");
+        germanTranslations.add("dreißig");
+
+        //Program Recycle Options
 
         String letterAsString=null;
         do {
@@ -173,7 +175,7 @@ public class App {
             System.out.println("Do you want to translate another number? /n If Yes type Y if No type N");
             letterAsString = scanner.nextLine();
         }
-        while (letterAsString.equals("Y"));
+        while (letterAsString.equalsIgnoreCase("Y")||letterAsString.equalsIgnoreCase("Yes"));
 
     }
 }
